@@ -54,7 +54,7 @@ namespace ListasSimplesLigadas
         {
             if (ValidaVacio() == false)
             {
-                Nodo nodoBusqueda = nodoInicial
+                Nodo nodoBusqueda = nodoInicial;
                 while (nodoBusqueda != null)
                 {
                     nodoBusqueda = nodoBusqueda.Enlace;
