@@ -4,7 +4,7 @@ Listas listas = new Listas();
 listas.AgregarNodo("Cero");
 listas.AgregarNodo("Uno");
 listas.AgregarNodo("Dos");
-listas.AgregarNodo("Ocho");
+listas.AgregarNodo("Tres");
 Console.WriteLine(listas.RecorrerLista());
 
 Console.WriteLine();

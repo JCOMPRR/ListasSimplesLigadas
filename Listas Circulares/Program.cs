@@ -4,7 +4,7 @@ Lista listas = new Lista();
 listas.AgregarNodo("Cero");
 listas.AgregarNodo("Uno");
 listas.AgregarNodo("Dos");
-listas.AgregarNodo("Ocho");
+listas.AgregarNodo("Tres");
 Console.WriteLine(listas.RecorrerLista());
 
 
@@ -15,6 +15,10 @@ Console.WriteLine("Buscando Nodo");
 Nodo nodoDos = listas.Buscar("Dos");
 Console.WriteLine(nodoDos.Valor);
 
+Console.WriteLine();
+
+Nodo nodoPosteriorAtres = listas.Buscar("Tres");
+Console.WriteLine(nodoPosteriorAtres.Enlace.Enlace.Valor);
 
 Console.WriteLine();
 
