@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListasSimplesLigadas", "Lis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListasDoblementeLigadas", "ListasDoblementeLigadas\ListasDoblementeLigadas.csproj", "{9617AE36-5871-4D6C-8BC5-99F04201AB9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Listas Circulares", "Listas Circulares\Listas Circulares.csproj", "{BE15BDD7-47E7-4989-ADF2-1B85749F044C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9617AE36-5871-4D6C-8BC5-99F04201AB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9617AE36-5871-4D6C-8BC5-99F04201AB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9617AE36-5871-4D6C-8BC5-99F04201AB9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE15BDD7-47E7-4989-ADF2-1B85749F044C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE15BDD7-47E7-4989-ADF2-1B85749F044C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE15BDD7-47E7-4989-ADF2-1B85749F044C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE15BDD7-47E7-4989-ADF2-1B85749F044C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
