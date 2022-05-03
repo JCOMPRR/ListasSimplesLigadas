@@ -45,6 +45,7 @@ namespace Listas_Circulares
             {
                 nodoActual = nodoActual.Enlace;
             }
+            //Como funciona esto? 
             Nodo nodoNuevo = new Nodo(dato);
             nodoActual.Enlace = nodoNuevo;
             nodoNuevo.Enlace = nodoInicial;
